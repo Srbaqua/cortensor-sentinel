@@ -6,7 +6,7 @@ dotenv.config({
 });
 
 if (!process.env.CORTENSOR_ROUTER_URL) {
-  throw new Error("❌ CORTENSOR_ROUTER_URL not loaded");
+  throw new Error(" CORTENSOR_ROUTER_URL not loaded");
 }
 
-console.log("✅ ENV loaded:", process.env.CORTENSOR_ROUTER_URL);
+console.log("ENV loaded:", process.env.CORTENSOR_ROUTER_URL);
